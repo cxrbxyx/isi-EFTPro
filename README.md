@@ -1,6 +1,6 @@
 # isi-EFTPro
 
-# Tutorial para ejecutar los test
+# Tutorial para ejecutar los test de las APIs
 Para obtener los correspondientes tokens de seguridad primero hay que registrarse en las páginas de ambas APIs.
 
 **Alphavantage**: [https://www.alphavantage.co/support/#api-key](URL)
@@ -22,4 +22,5 @@ Como recomendación para tardar menos es ideal comprobar todas las funciones a l
 ## RECOMENDACION
  Crear un entorno virtual para instalar las dependencias (requests, pandas y matplotlib) sin que afecten al entorno global.
 
-
+# Tutorial para la base de datos
+La base de datos etfPro.db está actualmente vacía. Para probarla, se puede ejecutar los test del archivo testDB.sql. Este script inserta datos en las distintas tablas y posteriormente se realizan operaciones sobre ellas.
