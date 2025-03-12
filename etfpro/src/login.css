@@ -82,3 +82,8 @@ h1 {
     margin-bottom: 30px; /* Ajusta este valor para bajar más o menos */
     color: #c29939;
 }
+
+/* Efecto hover */
+.btn:hover {
+    text-decoration: underline;
+}
